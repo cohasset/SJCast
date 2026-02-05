@@ -1,0 +1,82 @@
+name: Check for New Videos & Publish
+
+on:
+  schedule:
+    # Run twice a week: Monday and Thursday at 8am UTC
+    - cron: '0 8 * * 1,4'
+  workflow_dispatch:  # Allow manual trigger
+
+env:
+  B2_BUCKET: ${{ vars.B2_BUCKET }}
+  PODCAST_BASE_URL: ${{ vars.PODCAST_BASE_URL }}
+
+jobs:
+  check-and-process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install yt-dlp mutagen b2sdk feedgen
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Restore state file
+        uses: actions/cache/restore@v4
+        with:
+          path: state.json
+          key: sjc-state-${{ github.run_id }}
+          restore-keys: |
+            sjc-state-
+
+      - name: Check for new videos
+        id: check
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          # Run monitor and capture output
+          python monitor.py --json > new_videos.json 2>&1 || true
+
+          # Check if we have new videos (file exists and has content beyond empty array)
+          if [ -s new_videos.json ] && [ "$(cat new_videos.json)" != "[]" ]; then
+            echo "has_new=true" >> $GITHUB_OUTPUT
+            echo "Found new videos:"
+            cat new_videos.json
+          else
+            echo "has_new=false" >> $GITHUB_OUTPUT
+            echo "No new videos found"
+          fi
+
+      - name: Process new videos
+        if: steps.check.outputs.has_new == 'true'
+        env:
+          B2_APPLICATION_KEY_ID: ${{ secrets.B2_APPLICATION_KEY_ID }}
+          B2_APPLICATION_KEY: ${{ secrets.B2_APPLICATION_KEY }}
+        run: python process_videos.py
+
+      - name: Save state file
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: state.json
+          key: sjc-state-${{ github.run_id }}
+
+      - name: Commit updated feed
+        if: steps.check.outputs.has_new == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add feed.xml episodes.json || true
+          git diff --staged --quiet || git commit -m "Update podcast feed with new episodes"
+          git push
