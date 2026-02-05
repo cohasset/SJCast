@@ -80,6 +80,7 @@ def download_audio(video_id, title):
         "--audio-quality", "128K",
         "-o", str(AUDIO_DIR / f"{video_id}.%(ext)s"),
         "--no-playlist",
+        "--extractor-args", "youtube:player_client=android",
     ]
 
     # Use cookies file if available (helps avoid bot detection)
