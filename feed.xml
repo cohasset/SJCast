@@ -7,9 +7,51 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 19:44:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 21:09:01 +0000</lastBuildDate>
     <itunes:author>Massachusetts Supreme Judicial Court</itunes:author>
     <itunes:category text="Government"/>
     <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>Town of Nahant v. Northeastern University, SJC-13844</title>
+      <guid isPermaLink="false">Aah__VaTRAc</guid>
+      <enclosure url="/episodes/Aah__VaTRAc.mp3" length="34320835" type="audio/mpeg"/>
+      <pubDate>Tue, 03 Feb 2026 17:09:22 +0000</pubDate>
+      <itunes:subtitle>Docket: SJC-13844</itunes:subtitle>
+    </item>
+    <item>
+      <title>In the Matter of an Impounded Case, SJC-13846</title>
+      <guid isPermaLink="false">8Ex_YO4KYWs</guid>
+      <enclosure url="/episodes/8Ex_YO4KYWs.mp3" length="43581188" type="audio/mpeg"/>
+      <pubDate>Tue, 03 Feb 2026 20:27:28 +0000</pubDate>
+      <itunes:subtitle>Docket: SJC-13846</itunes:subtitle>
+    </item>
+    <item>
+      <title>Commonwealth v. Scott M. Grimaldi, SJC-13842</title>
+      <guid isPermaLink="false">54RTmvDp6ek</guid>
+      <enclosure url="/episodes/54RTmvDp6ek.mp3" length="30985525" type="audio/mpeg"/>
+      <pubDate>Thu, 05 Feb 2026 15:09:16 +0000</pubDate>
+      <itunes:subtitle>Docket: SJC-13842</itunes:subtitle>
+    </item>
+    <item>
+      <title>Commonwealth v. Jose M. Shaw, SJC-13852</title>
+      <guid isPermaLink="false">W58IZw3ZjAc</guid>
+      <enclosure url="/episodes/W58IZw3ZjAc.mp3" length="23340933" type="audio/mpeg"/>
+      <pubDate>Thu, 05 Feb 2026 15:11:58 +0000</pubDate>
+      <itunes:subtitle>Docket: SJC-13852</itunes:subtitle>
+    </item>
+    <item>
+      <title>Watermark LLC. v. RH Benea Cranberry Co. Inc. et al, SJC-13843</title>
+      <guid isPermaLink="false">TcjA4lSrn28</guid>
+      <enclosure url="/episodes/TcjA4lSrn28.mp3" length="33950999" type="audio/mpeg"/>
+      <pubDate>Thu, 05 Feb 2026 15:16:07 +0000</pubDate>
+      <itunes:subtitle>Docket: SJC-13843</itunes:subtitle>
+    </item>
+    <item>
+      <title>Helen Banevicius et al v. Town of Barnstable et al, SJC-13845</title>
+      <guid isPermaLink="false">IXgfh0Q-3Ak</guid>
+      <enclosure url="/episodes/IXgfh0Q-3Ak.mp3" length="30395630" type="audio/mpeg"/>
+      <pubDate>Thu, 05 Feb 2026 15:26:23 +0000</pubDate>
+      <itunes:subtitle>Docket: SJC-13845</itunes:subtitle>
+    </item>
   </channel>
 </rss>
