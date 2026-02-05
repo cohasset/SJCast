@@ -63,12 +63,24 @@ jobs:
             echo "No new videos found"
           fi
 
+      - name: Write YouTube cookies
+        if: steps.check.outputs.has_new == 'true'
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: |
+          echo "$YOUTUBE_COOKIES" > cookies.txt
+          chmod 600 cookies.txt
+
       - name: Process new videos
         if: steps.check.outputs.has_new == 'true'
         env:
           B2_APPLICATION_KEY_ID: ${{ secrets.B2_APPLICATION_KEY_ID }}
           B2_APPLICATION_KEY: ${{ secrets.B2_APPLICATION_KEY }}
         run: python process_videos.py
+
+      - name: Clean up cookies
+        if: always()
+        run: rm -f cookies.txt
 
       - name: Save state file
         if: always()

@@ -80,8 +80,14 @@ def download_audio(video_id, title):
         "--audio-quality", "128K",
         "-o", str(AUDIO_DIR / f"{video_id}.%(ext)s"),
         "--no-playlist",
-        url
     ]
+
+    # Use cookies file if available (helps avoid bot detection)
+    cookies_file = Path("cookies.txt")
+    if cookies_file.exists():
+        cmd.extend(["--cookies", str(cookies_file)])
+
+    cmd.append(url)
 
     print(f"  Downloading: {url}")
     result = subprocess.run(cmd, capture_output=True, text=True)
