@@ -32,7 +32,9 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install yt-dlp mutagen b2sdk feedgen
+          pip install mutagen b2sdk feedgen
+          # Install yt-dlp nightly for latest n-challenge fixes
+          pip install -U "yt-dlp[default] @ https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz"
 
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
