@@ -81,6 +81,7 @@ def download_audio(video_id, title):
         "-o", str(AUDIO_DIR / f"{video_id}.%(ext)s"),
         "--no-playlist",
         "--extractor-args", "youtube:player_client=web",
+        "--js-runtimes", "node",  # Use Node.js for YouTube's EJS challenges
     ]
 
     # Use cookies file if available (required for bot detection bypass)

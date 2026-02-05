@@ -47,7 +47,7 @@ jobs:
 
           echo "=== Testing yt-dlp format listing ==="
           # Test with a known public video to verify n-challenge works
-          yt-dlp --verbose -F "https://www.youtube.com/watch?v=IXgfh0Q-3Ak" 2>&1 | head -100 || true
+          yt-dlp --verbose --js-runtimes node -F "https://www.youtube.com/watch?v=IXgfh0Q-3Ak" 2>&1 | head -100 || true
 
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
