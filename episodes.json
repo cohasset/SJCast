@@ -52,5 +52,445 @@
     "audio_url": "/episodes/Aah__VaTRAc.mp3",
     "file_size": 34320835,
     "processed_at": "2026-02-05T21:09:01.903744"
+  },
+  {
+    "video_id": "o79b5l3t1C4",
+    "title": "Mahabub Khoda v. Bangladesh Association of New England, Inc. et al, SJC-13857",
+    "docket": "SJC-13857",
+    "description": "",
+    "published_at": "2026-02-03T17:23:31Z",
+    "audio_url": "/episodes/SJC-13857.mp3",
+    "file_size": 30617804,
+    "processed_at": "2026-02-06T01:52:37.256176"
+  },
+  {
+    "video_id": "2JNGZRh_AGY",
+    "title": "J.C. Cannistraro, LLC v. Columbia Construction Co., SJC-13819",
+    "docket": "SJC-13819",
+    "description": "",
+    "published_at": "2026-02-03T17:12:42Z",
+    "audio_url": "/episodes/SJC-13819.mp3",
+    "file_size": 33043957,
+    "processed_at": "2026-02-06T01:53:30.258905"
+  },
+  {
+    "video_id": "MwytnknZEJE",
+    "title": "David M. Sabatini v. Kristin A. Knouse & others, SJC-13781",
+    "docket": "SJC-13781",
+    "description": "",
+    "published_at": "2026-02-03T17:03:03Z",
+    "audio_url": "/episodes/SJC-13781.mp3",
+    "file_size": 32635200,
+    "processed_at": "2026-02-06T01:54:11.357338"
+  },
+  {
+    "video_id": "Wuz4SNPjsBk",
+    "title": "Commonwealth v. Emilio Delarosa, SJC-13444",
+    "docket": "SJC-13444",
+    "description": "",
+    "published_at": "2026-01-12T14:06:01Z",
+    "audio_url": "/episodes/SJC-13444.mp3",
+    "file_size": 31561628,
+    "processed_at": "2026-02-06T01:55:11.217529"
+  },
+  {
+    "video_id": "sGof7nsXE0E",
+    "title": "Commonwealth v. Van Dorsey Jr., SJC-13232",
+    "docket": "SJC-13232",
+    "description": "",
+    "published_at": "2026-01-12T14:05:42Z",
+    "audio_url": "/episodes/SJC-13232.mp3",
+    "file_size": 40096102,
+    "processed_at": "2026-02-06T01:56:20.543076"
+  },
+  {
+    "video_id": "lgXfcdmkQDI",
+    "title": "Commonwealth v. Jill E. McGrath, SJC-13813",
+    "docket": "SJC-13813",
+    "description": "",
+    "published_at": "2026-01-09T18:06:59Z",
+    "audio_url": "/episodes/SJC-13813.mp3",
+    "file_size": 33491183,
+    "processed_at": "2026-02-06T01:57:18.326602"
+  },
+  {
+    "video_id": "iIk--nRXVJw",
+    "title": "Commonwealth v R.D.,  SJC-13774",
+    "docket": "SJC-13774",
+    "description": "",
+    "published_at": "2026-01-08T16:59:26Z",
+    "audio_url": "/episodes/SJC-13774.mp3",
+    "file_size": 20897602,
+    "processed_at": "2026-02-06T01:58:07.667490"
+  },
+  {
+    "video_id": "uBnUqERBdNU",
+    "title": "Commonwealth v S.W., SJC-13785",
+    "docket": "SJC-13785",
+    "description": "",
+    "published_at": "2026-01-08T16:54:39Z",
+    "audio_url": "/episodes/SJC-13785.mp3",
+    "file_size": 28630466,
+    "processed_at": "2026-02-06T01:58:38.735593"
+  },
+  {
+    "video_id": "Nt7vitHN2F4",
+    "title": "Commonwealth v. Sambath Chhieng, SJC-13817",
+    "docket": "SJC-13817",
+    "description": "",
+    "published_at": "2026-01-08T16:48:46Z",
+    "audio_url": "/episodes/SJC-13817.mp3",
+    "file_size": 22007986,
+    "processed_at": "2026-02-06T01:59:04.396766"
+  },
+  {
+    "video_id": "8aQ3PinVHmI",
+    "title": "Commonwealth v. Brian Donovan, SJC-13799",
+    "docket": "SJC-13799",
+    "description": "",
+    "published_at": "2026-01-08T16:45:07Z",
+    "audio_url": "/episodes/SJC-13799.mp3",
+    "file_size": 35283509,
+    "processed_at": "2026-02-06T02:00:04.774689"
+  },
+  {
+    "video_id": "Ra8fFeNCn5s",
+    "title": "Kevin C. Robinson v. Town of Marshfield, SJC-13825",
+    "docket": "SJC-13825",
+    "description": "",
+    "published_at": "2026-01-08T16:43:49Z",
+    "audio_url": "/episodes/SJC-13825.mp3",
+    "file_size": 34053490,
+    "processed_at": "2026-02-06T02:01:04.697024"
+  },
+  {
+    "video_id": "EH56TdbmtnU",
+    "title": "Commonwealth v. Jose N. Solis, SJC-13823",
+    "docket": "SJC-13823",
+    "description": "",
+    "published_at": "2026-01-06T14:42:11Z",
+    "audio_url": "/episodes/SJC-13823.mp3",
+    "file_size": 34371865,
+    "processed_at": "2026-02-06T02:02:10.691991"
+  },
+  {
+    "video_id": "xgPqGOW6yvE",
+    "title": "Commonwealth v. Michael A. Diaz, Jr., SJC-13835",
+    "docket": "SJC-13835",
+    "description": "",
+    "published_at": "2026-01-06T14:37:37Z",
+    "audio_url": "/episodes/SJC-13835.mp3",
+    "file_size": 31593848,
+    "processed_at": "2026-02-06T02:03:11.745331"
+  },
+  {
+    "video_id": "9vYiOzoDqoY",
+    "title": "Commonwealth v. Pierre Paul Cadet, SJC-13713",
+    "docket": "SJC-13713",
+    "description": "",
+    "published_at": "2026-01-06T14:35:29Z",
+    "audio_url": "/episodes/SJC-13713.mp3",
+    "file_size": 29349670,
+    "processed_at": "2026-02-06T02:04:11.850714"
+  },
+  {
+    "video_id": "IwsEpof1Cc8",
+    "title": "In the Matter of an Impounded Case, SJC-13793",
+    "docket": "SJC-13793",
+    "description": "",
+    "published_at": "2026-01-06T14:30:53Z",
+    "audio_url": "/episodes/SJC-13793.mp3",
+    "file_size": 29589820,
+    "processed_at": "2026-02-06T02:05:09.346487"
+  },
+  {
+    "video_id": "ibq9z44-mYA",
+    "title": "Mass Bar Association Presents  Annual State of the Judiciary Address",
+    "docket": null,
+    "description": "",
+    "published_at": "2025-12-11T15:56:11Z",
+    "audio_url": "/episodes/ibq9z44-mYA.mp3",
+    "file_size": 46427818,
+    "processed_at": "2026-02-06T02:06:04.090348"
+  },
+  {
+    "video_id": "Fzzz4sAJKb4",
+    "title": "Commonwealth v. Keith Williams, SJC-12702",
+    "docket": "SJC-12702",
+    "description": "",
+    "published_at": "2025-12-11T15:12:20Z",
+    "audio_url": "/episodes/SJC-12702.mp3",
+    "file_size": 44419612,
+    "processed_at": "2026-02-06T02:07:21.747537"
+  },
+  {
+    "video_id": "C_ealg_EHoo",
+    "title": "Commonwealth v. Raymond J. White, SJC-13770",
+    "docket": "SJC-13770",
+    "description": "",
+    "published_at": "2025-12-11T15:09:00Z",
+    "audio_url": "/episodes/SJC-13770.mp3",
+    "file_size": 34272294,
+    "processed_at": "2026-02-06T02:08:01.603753"
+  },
+  {
+    "video_id": "d5WtvX-tXNY",
+    "title": "Lynn Allegaert, Trustee v. Harbor View Hotel Owner, LLC & another, SJC-13787",
+    "docket": "SJC-13787",
+    "description": "",
+    "published_at": "2025-12-08T15:44:39Z",
+    "audio_url": "/episodes/SJC-13787.mp3",
+    "file_size": 33881563,
+    "processed_at": "2026-02-06T02:08:58.751225"
+  },
+  {
+    "video_id": "hE1dFKykFi8",
+    "title": "Andres Hidalgo v. Watch City Construction Corp. & another, SJC-13788",
+    "docket": "SJC-13788",
+    "description": "",
+    "published_at": "2025-12-08T15:42:32Z",
+    "audio_url": "/episodes/SJC-13788.mp3",
+    "file_size": 31113153,
+    "processed_at": "2026-02-06T02:09:59.548421"
+  },
+  {
+    "video_id": "sFU54LFXao8",
+    "title": "Matthew Ortins et al v. Lincoln Property Company et al, SJC-13777",
+    "docket": "SJC-13777",
+    "description": "",
+    "published_at": "2025-12-08T15:40:42Z",
+    "audio_url": "/episodes/SJC-13777.mp3",
+    "file_size": 44248520,
+    "processed_at": "2026-02-06T02:11:17.498752"
+  },
+  {
+    "video_id": "8qx2NmqcSgI",
+    "title": "Commonwealth of Massachusetts v. Meta Platforms, Inc. et al, SJC-13747",
+    "docket": "SJC-13747",
+    "description": "",
+    "published_at": "2025-12-05T21:26:37Z",
+    "audio_url": "/episodes/SJC-13747.mp3",
+    "file_size": 47450783,
+    "processed_at": "2026-02-06T02:12:38.392010"
+  },
+  {
+    "video_id": "89E41nf5z24",
+    "title": "Estate of Caroline H. Walsh v. Commissioner of Revenue, SJC-13798",
+    "docket": "SJC-13798",
+    "description": "",
+    "published_at": "2025-12-03T20:04:03Z",
+    "audio_url": "/episodes/SJC-13798.mp3",
+    "file_size": 26677516,
+    "processed_at": "2026-02-06T02:13:30.156655"
+  },
+  {
+    "video_id": "_WVZjULc7UY",
+    "title": "Courtney Giraldi et al v. Roberta Orsi et al, SJC-13797",
+    "docket": "SJC-13797",
+    "description": "",
+    "published_at": "2025-12-03T19:51:54Z",
+    "audio_url": "/episodes/SJC-13797.mp3",
+    "file_size": 35982632,
+    "processed_at": "2026-02-06T02:14:36.128190"
+  },
+  {
+    "video_id": "kkccXrqd5eA",
+    "title": "Commonwealth v. Maurice M. Smith, SJC-13796",
+    "docket": "SJC-13796",
+    "description": "",
+    "published_at": "2025-12-03T19:35:44Z",
+    "audio_url": "/episodes/SJC-13796.mp3",
+    "file_size": 33769405,
+    "processed_at": "2026-02-06T02:15:38.042396"
+  },
+  {
+    "video_id": "m8g3Jc2beLw",
+    "title": "Commonwealth v. Stefanos Nikolaos Psikarakis, SJC-13792",
+    "docket": "SJC-13792",
+    "description": "",
+    "published_at": "2025-12-03T19:32:06Z",
+    "audio_url": "/episodes/SJC-13792.mp3",
+    "file_size": 33769417,
+    "processed_at": "2026-02-06T02:16:51.158335"
+  },
+  {
+    "video_id": "WKN6DBp4g1k",
+    "title": "Commonwealth v. Jose Arias, SJC-13816",
+    "docket": "SJC-13816",
+    "description": "",
+    "published_at": "2025-12-03T19:26:03Z",
+    "audio_url": "/episodes/SJC-13816.mp3",
+    "file_size": 37974089,
+    "processed_at": "2026-02-06T02:17:57.977652"
+  },
+  {
+    "video_id": "BLWa9_ufjps",
+    "title": "Access to Justice Symposium 2025",
+    "docket": null,
+    "description": "",
+    "published_at": "2025-11-19T18:47:23Z",
+    "audio_url": "/episodes/BLWa9_ufjps.mp3",
+    "file_size": 145445100,
+    "processed_at": "2026-02-06T02:21:09.873841"
+  },
+  {
+    "video_id": "jApldeRoABw",
+    "title": "Commonwealth v. James W. Ferguson, SJC-13574",
+    "docket": "SJC-13574",
+    "description": "",
+    "published_at": "2025-11-12T16:51:47Z",
+    "audio_url": "/episodes/SJC-13574.mp3",
+    "file_size": 26088421,
+    "processed_at": "2026-02-06T02:22:05.499858"
+  },
+  {
+    "video_id": "OIFfHxtSFLM",
+    "title": "Commonwealth v. Michael E. Moscaritolo, SJC-13575",
+    "docket": "SJC-13575",
+    "description": "",
+    "published_at": "2025-11-12T16:27:23Z",
+    "audio_url": "/episodes/SJC-13575.mp3",
+    "file_size": 30503978,
+    "processed_at": "2026-02-06T02:23:02.576939"
+  },
+  {
+    "video_id": "OsK6IC9anr8",
+    "title": "Commonwealth v. Domingo Agostini, SJC-13827",
+    "docket": "SJC-13827",
+    "description": "",
+    "published_at": "2025-11-05T21:19:01Z",
+    "audio_url": "/episodes/SJC-13827.mp3",
+    "file_size": 14309848,
+    "processed_at": "2026-02-06T02:23:43.097268"
+  },
+  {
+    "video_id": "Bj07g8TBLxU",
+    "title": "Armand Fontaine v. Philip Morris USA Inc., SJC-13778",
+    "docket": "SJC-13778",
+    "description": "",
+    "published_at": "2025-11-05T21:18:01Z",
+    "audio_url": "/episodes/SJC-13778.mp3",
+    "file_size": 42949027,
+    "processed_at": "2026-02-06T02:25:01.769705"
+  },
+  {
+    "video_id": "yDTin_f-TaU",
+    "title": "James M. Ryan v. Mary Ann Morse Healthcare Corp., SJC-13726",
+    "docket": "SJC-13726",
+    "description": "",
+    "published_at": "2025-11-05T21:15:24Z",
+    "audio_url": "/episodes/SJC-13726.mp3",
+    "file_size": 43997068,
+    "processed_at": "2026-02-06T02:26:17.142157"
+  },
+  {
+    "video_id": "koC6tnOVIqk",
+    "title": "In the Matter of an Impounded Case, SJC-13800",
+    "docket": "SJC-13800",
+    "description": "",
+    "published_at": "2025-11-05T21:13:29Z",
+    "audio_url": "/episodes/SJC-13800.mp3",
+    "file_size": 20719805,
+    "processed_at": "2026-02-06T02:26:53.779780"
+  },
+  {
+    "video_id": "SVaexkviiZM",
+    "title": "Committee for Public Counsel Services v. Middlesex & Suffolk County District Courts et al, SJC-13824",
+    "docket": "SJC-13824",
+    "description": "",
+    "published_at": "2025-11-05T21:11:52Z",
+    "audio_url": "/episodes/SJC-13824.mp3",
+    "file_size": 68658768,
+    "processed_at": "2026-02-06T02:28:18.344815"
+  },
+  {
+    "video_id": "SnqMdun0CaY",
+    "title": "Thomas Galvin v. Roxbury Community College, SJC-13754",
+    "docket": "SJC-13754",
+    "description": "",
+    "published_at": "2025-11-04T21:13:36Z",
+    "audio_url": "/episodes/SJC-13754.mp3",
+    "file_size": 41570057,
+    "processed_at": "2026-02-06T02:29:30.021380"
+  },
+  {
+    "video_id": "cnxPDHTVFMs",
+    "title": "In the Matter of an Impounded Case, SJC-13678",
+    "docket": "SJC-13678",
+    "description": "",
+    "published_at": "2025-11-04T21:11:21Z",
+    "audio_url": "/episodes/SJC-13678.mp3",
+    "file_size": 21923058,
+    "processed_at": "2026-02-06T02:30:09.773339"
+  },
+  {
+    "video_id": "BOfV8N9kNe8",
+    "title": "Commonwealth v. Shawn Tanner, SJC-13647",
+    "docket": "SJC-13647",
+    "description": "",
+    "published_at": "2025-11-04T21:09:37Z",
+    "audio_url": "/episodes/SJC-13647.mp3",
+    "file_size": 35198996,
+    "processed_at": "2026-02-06T02:31:14.847819"
+  },
+  {
+    "video_id": "8QL1g5wukmY",
+    "title": "Andrea Joy Campbell, Attorney General v. Mystic Valley Regional Charter School, SJC-13769",
+    "docket": "SJC-13769",
+    "description": "",
+    "published_at": "2025-11-04T21:07:44Z",
+    "audio_url": "/episodes/SJC-13769.mp3",
+    "file_size": 30808178,
+    "processed_at": "2026-02-06T02:32:04.273961"
+  },
+  {
+    "video_id": "iu4w9-wGTQM",
+    "title": "Commonwealth v. Jermaine Berry, SJC-13789",
+    "docket": "SJC-13789",
+    "description": "",
+    "published_at": "2025-11-04T21:03:59Z",
+    "audio_url": "/episodes/SJC-13789.mp3",
+    "file_size": 36685074,
+    "processed_at": "2026-02-06T02:33:10.137945"
+  },
+  {
+    "video_id": "PLBzSSJElo0",
+    "title": "Pro Bono Awards 2025",
+    "docket": null,
+    "description": "",
+    "published_at": "2025-10-30T17:52:55Z",
+    "audio_url": "/episodes/PLBzSSJElo0.mp3",
+    "file_size": 61351701,
+    "processed_at": "2026-02-06T02:34:49.275280"
+  },
+  {
+    "video_id": "DfxHcjnqb_c",
+    "title": "Commonwealth v. Renardo Williams, Jr., SJC-13570",
+    "docket": "SJC-13570",
+    "description": "",
+    "published_at": "2025-10-14T19:47:53Z",
+    "audio_url": "/episodes/SJC-13570.mp3",
+    "file_size": 35294813,
+    "processed_at": "2026-02-06T02:35:54.116545"
+  },
+  {
+    "video_id": "yRk5KoO2gIk",
+    "title": "Commonwealth v. Dennis M. Bateman, SJC-10079",
+    "docket": "SJC-10079",
+    "description": "",
+    "published_at": "2025-10-14T19:46:27Z",
+    "audio_url": "/episodes/SJC-10079.mp3",
+    "file_size": 41890107,
+    "processed_at": "2026-02-06T02:37:06.519718"
+  },
+  {
+    "video_id": "hwLiXhWksqA",
+    "title": "Edward Pierce, petitioner, SJC-13748",
+    "docket": "SJC-13748",
+    "description": "",
+    "published_at": "2025-10-10T19:58:09Z",
+    "audio_url": "/episodes/SJC-13748.mp3",
+    "file_size": 32856081,
+    "processed_at": "2026-02-06T02:38:08.440618"
   }
 ]
