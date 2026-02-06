@@ -229,8 +229,8 @@ def generate_feed(episodes):
 
     fg.title(PODCAST_TITLE)
     fg.description(PODCAST_DESCRIPTION)
-    fg.link(href=PODCAST_WEBSITE, rel="alternate")
-    fg.link(href=PODCAST_FEED_URL, rel="self")
+    fg.link(href=PODCAST_WEBSITE)
+    fg.link(href=PODCAST_FEED_URL, rel="self", type="application/rss+xml")
     fg.language("en")
     fg.podcast.itunes_author(PODCAST_AUTHOR)
     fg.podcast.itunes_category("Government")
@@ -249,7 +249,16 @@ def generate_feed(episodes):
         fe = fg.add_entry()
         fe.id(ep["video_id"])
         fe.title(ep["title"])
-        fe.description(ep.get("description", ""))
+        # Description is required by some podcast apps (e.g. Overcast).
+        # Fall back to title if description is empty.
+        case_info = parse_case_info(ep["title"])
+        desc = ep.get("description", "").strip()
+        if not desc:
+            if case_info["docket"]:
+                desc = f"Oral argument in {case_info['case_name']}, {case_info['docket']}"
+            else:
+                desc = ep["title"]
+        fe.description(desc)
         fe.published(ep["published_at"])
 
         if ep.get("audio_url"):
@@ -257,7 +266,6 @@ def generate_feed(episodes):
                         str(ep.get("file_size", 0)),
                         "audio/mpeg")
 
-        case_info = parse_case_info(ep["title"])
         if case_info["docket"]:
             fe.podcast.itunes_subtitle(f"Docket: {case_info['docket']}")
 

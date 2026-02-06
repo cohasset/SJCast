@@ -4,11 +4,11 @@
     <title>SJC Oral Arguments</title>
     <link>https://cohasset.github.io/SJCast/feed.xml</link>
     <description>Oral argument recordings from the Massachusetts Supreme Judicial Court</description>
-    <atom:link href="https://cohasset.github.io/SJCast/feed.xml" rel="self"/>
+    <atom:link href="https://cohasset.github.io/SJCast/feed.xml" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Feb 2026 03:11:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 03:21:29 +0000</lastBuildDate>
     <itunes:author>Massachusetts Supreme Judicial Court</itunes:author>
     <itunes:category text="Government"/>
     <itunes:explicit>no</itunes:explicit>
@@ -18,6 +18,7 @@
     </itunes:owner>
     <item>
       <title>Edward Pierce, petitioner, SJC-13748</title>
+      <description>Oral argument in Edward Pierce, petitioner, SJC-13748</description>
       <guid isPermaLink="false">hwLiXhWksqA</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13748.mp3" length="32856081" type="audio/mpeg"/>
       <pubDate>Fri, 10 Oct 2025 19:58:09 +0000</pubDate>
@@ -25,6 +26,7 @@
     </item>
     <item>
       <title>Commonwealth v. Dennis M. Bateman, SJC-10079</title>
+      <description>Oral argument in Commonwealth v. Dennis M. Bateman, SJC-10079</description>
       <guid isPermaLink="false">yRk5KoO2gIk</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-10079.mp3" length="41890107" type="audio/mpeg"/>
       <pubDate>Tue, 14 Oct 2025 19:46:27 +0000</pubDate>
@@ -32,6 +34,7 @@
     </item>
     <item>
       <title>Commonwealth v. Renardo Williams, Jr., SJC-13570</title>
+      <description>Oral argument in Commonwealth v. Renardo Williams, Jr., SJC-13570</description>
       <guid isPermaLink="false">DfxHcjnqb_c</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13570.mp3" length="35294813" type="audio/mpeg"/>
       <pubDate>Tue, 14 Oct 2025 19:47:53 +0000</pubDate>
@@ -39,12 +42,14 @@
     </item>
     <item>
       <title>Pro Bono Awards 2025</title>
+      <description>Pro Bono Awards 2025</description>
       <guid isPermaLink="false">PLBzSSJElo0</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/PLBzSSJElo0.mp3" length="61351701" type="audio/mpeg"/>
       <pubDate>Thu, 30 Oct 2025 17:52:55 +0000</pubDate>
     </item>
     <item>
       <title>Commonwealth v. Jermaine Berry, SJC-13789</title>
+      <description>Oral argument in Commonwealth v. Jermaine Berry, SJC-13789</description>
       <guid isPermaLink="false">iu4w9-wGTQM</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13789.mp3" length="36685074" type="audio/mpeg"/>
       <pubDate>Tue, 04 Nov 2025 21:03:59 +0000</pubDate>
@@ -52,6 +57,7 @@
     </item>
     <item>
       <title>Andrea Joy Campbell, Attorney General v. Mystic Valley Regional Charter School, SJC-13769</title>
+      <description>Oral argument in Andrea Joy Campbell, Attorney General v. Mystic Valley Regional Charter School, SJC-13769</description>
       <guid isPermaLink="false">8QL1g5wukmY</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13769.mp3" length="30808178" type="audio/mpeg"/>
       <pubDate>Tue, 04 Nov 2025 21:07:44 +0000</pubDate>
@@ -59,6 +65,7 @@
     </item>
     <item>
       <title>Commonwealth v. Shawn Tanner, SJC-13647</title>
+      <description>Oral argument in Commonwealth v. Shawn Tanner, SJC-13647</description>
       <guid isPermaLink="false">BOfV8N9kNe8</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13647.mp3" length="35198996" type="audio/mpeg"/>
       <pubDate>Tue, 04 Nov 2025 21:09:37 +0000</pubDate>
@@ -66,6 +73,7 @@
     </item>
     <item>
       <title>In the Matter of an Impounded Case, SJC-13678</title>
+      <description>Oral argument in In the Matter of an Impounded Case, SJC-13678</description>
       <guid isPermaLink="false">cnxPDHTVFMs</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13678.mp3" length="21923058" type="audio/mpeg"/>
       <pubDate>Tue, 04 Nov 2025 21:11:21 +0000</pubDate>
@@ -73,6 +81,7 @@
     </item>
     <item>
       <title>Thomas Galvin v. Roxbury Community College, SJC-13754</title>
+      <description>Oral argument in Thomas Galvin v. Roxbury Community College, SJC-13754</description>
       <guid isPermaLink="false">SnqMdun0CaY</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13754.mp3" length="41570057" type="audio/mpeg"/>
       <pubDate>Tue, 04 Nov 2025 21:13:36 +0000</pubDate>
@@ -80,6 +89,7 @@
     </item>
     <item>
       <title>Committee for Public Counsel Services v. Middlesex &amp; Suffolk County District Courts et al, SJC-13824</title>
+      <description>Oral argument in Committee for Public Counsel Services v. Middlesex &amp; Suffolk County District Courts et al, SJC-13824</description>
       <guid isPermaLink="false">SVaexkviiZM</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13824.mp3" length="68658768" type="audio/mpeg"/>
       <pubDate>Wed, 05 Nov 2025 21:11:52 +0000</pubDate>
@@ -87,6 +97,7 @@
     </item>
     <item>
       <title>In the Matter of an Impounded Case, SJC-13800</title>
+      <description>Oral argument in In the Matter of an Impounded Case, SJC-13800</description>
       <guid isPermaLink="false">koC6tnOVIqk</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13800.mp3" length="20719805" type="audio/mpeg"/>
       <pubDate>Wed, 05 Nov 2025 21:13:29 +0000</pubDate>
@@ -94,6 +105,7 @@
     </item>
     <item>
       <title>James M. Ryan v. Mary Ann Morse Healthcare Corp., SJC-13726</title>
+      <description>Oral argument in James M. Ryan v. Mary Ann Morse Healthcare Corp., SJC-13726</description>
       <guid isPermaLink="false">yDTin_f-TaU</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13726.mp3" length="43997068" type="audio/mpeg"/>
       <pubDate>Wed, 05 Nov 2025 21:15:24 +0000</pubDate>
@@ -101,6 +113,7 @@
     </item>
     <item>
       <title>Armand Fontaine v. Philip Morris USA Inc., SJC-13778</title>
+      <description>Oral argument in Armand Fontaine v. Philip Morris USA Inc., SJC-13778</description>
       <guid isPermaLink="false">Bj07g8TBLxU</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13778.mp3" length="42949027" type="audio/mpeg"/>
       <pubDate>Wed, 05 Nov 2025 21:18:01 +0000</pubDate>
@@ -108,6 +121,7 @@
     </item>
     <item>
       <title>Commonwealth v. Domingo Agostini, SJC-13827</title>
+      <description>Oral argument in Commonwealth v. Domingo Agostini, SJC-13827</description>
       <guid isPermaLink="false">OsK6IC9anr8</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13827.mp3" length="14309848" type="audio/mpeg"/>
       <pubDate>Wed, 05 Nov 2025 21:19:01 +0000</pubDate>
@@ -115,6 +129,7 @@
     </item>
     <item>
       <title>Commonwealth v. Michael E. Moscaritolo, SJC-13575</title>
+      <description>Oral argument in Commonwealth v. Michael E. Moscaritolo, SJC-13575</description>
       <guid isPermaLink="false">OIFfHxtSFLM</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13575.mp3" length="30503978" type="audio/mpeg"/>
       <pubDate>Wed, 12 Nov 2025 16:27:23 +0000</pubDate>
@@ -122,6 +137,7 @@
     </item>
     <item>
       <title>Commonwealth v. James W. Ferguson, SJC-13574</title>
+      <description>Oral argument in Commonwealth v. James W. Ferguson, SJC-13574</description>
       <guid isPermaLink="false">jApldeRoABw</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13574.mp3" length="26088421" type="audio/mpeg"/>
       <pubDate>Wed, 12 Nov 2025 16:51:47 +0000</pubDate>
@@ -129,12 +145,14 @@
     </item>
     <item>
       <title>Access to Justice Symposium 2025</title>
+      <description>Access to Justice Symposium 2025</description>
       <guid isPermaLink="false">BLWa9_ufjps</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/BLWa9_ufjps.mp3" length="145445100" type="audio/mpeg"/>
       <pubDate>Wed, 19 Nov 2025 18:47:23 +0000</pubDate>
     </item>
     <item>
       <title>Commonwealth v. Jose Arias, SJC-13816</title>
+      <description>Oral argument in Commonwealth v. Jose Arias, SJC-13816</description>
       <guid isPermaLink="false">WKN6DBp4g1k</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13816.mp3" length="37974089" type="audio/mpeg"/>
       <pubDate>Wed, 03 Dec 2025 19:26:03 +0000</pubDate>
@@ -142,6 +160,7 @@
     </item>
     <item>
       <title>Commonwealth v. Stefanos Nikolaos Psikarakis, SJC-13792</title>
+      <description>Oral argument in Commonwealth v. Stefanos Nikolaos Psikarakis, SJC-13792</description>
       <guid isPermaLink="false">m8g3Jc2beLw</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13792.mp3" length="33769417" type="audio/mpeg"/>
       <pubDate>Wed, 03 Dec 2025 19:32:06 +0000</pubDate>
@@ -149,6 +168,7 @@
     </item>
     <item>
       <title>Commonwealth v. Maurice M. Smith, SJC-13796</title>
+      <description>Oral argument in Commonwealth v. Maurice M. Smith, SJC-13796</description>
       <guid isPermaLink="false">kkccXrqd5eA</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13796.mp3" length="33769405" type="audio/mpeg"/>
       <pubDate>Wed, 03 Dec 2025 19:35:44 +0000</pubDate>
@@ -156,6 +176,7 @@
     </item>
     <item>
       <title>Courtney Giraldi et al v. Roberta Orsi et al, SJC-13797</title>
+      <description>Oral argument in Courtney Giraldi et al v. Roberta Orsi et al, SJC-13797</description>
       <guid isPermaLink="false">_WVZjULc7UY</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13797.mp3" length="35982632" type="audio/mpeg"/>
       <pubDate>Wed, 03 Dec 2025 19:51:54 +0000</pubDate>
@@ -163,6 +184,7 @@
     </item>
     <item>
       <title>Estate of Caroline H. Walsh v. Commissioner of Revenue, SJC-13798</title>
+      <description>Oral argument in Estate of Caroline H. Walsh v. Commissioner of Revenue, SJC-13798</description>
       <guid isPermaLink="false">89E41nf5z24</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13798.mp3" length="26677516" type="audio/mpeg"/>
       <pubDate>Wed, 03 Dec 2025 20:04:03 +0000</pubDate>
@@ -170,6 +192,7 @@
     </item>
     <item>
       <title>Commonwealth of Massachusetts v. Meta Platforms, Inc. et al, SJC-13747</title>
+      <description>Oral argument in Commonwealth of Massachusetts v. Meta Platforms, Inc. et al, SJC-13747</description>
       <guid isPermaLink="false">8qx2NmqcSgI</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13747.mp3" length="47450783" type="audio/mpeg"/>
       <pubDate>Fri, 05 Dec 2025 21:26:37 +0000</pubDate>
@@ -177,6 +200,7 @@
     </item>
     <item>
       <title>Matthew Ortins et al v. Lincoln Property Company et al, SJC-13777</title>
+      <description>Oral argument in Matthew Ortins et al v. Lincoln Property Company et al, SJC-13777</description>
       <guid isPermaLink="false">sFU54LFXao8</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13777.mp3" length="44248520" type="audio/mpeg"/>
       <pubDate>Mon, 08 Dec 2025 15:40:42 +0000</pubDate>
@@ -184,6 +208,7 @@
     </item>
     <item>
       <title>Andres Hidalgo v. Watch City Construction Corp. &amp; another, SJC-13788</title>
+      <description>Oral argument in Andres Hidalgo v. Watch City Construction Corp. &amp; another, SJC-13788</description>
       <guid isPermaLink="false">hE1dFKykFi8</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13788.mp3" length="31113153" type="audio/mpeg"/>
       <pubDate>Mon, 08 Dec 2025 15:42:32 +0000</pubDate>
@@ -191,6 +216,7 @@
     </item>
     <item>
       <title>Lynn Allegaert, Trustee v. Harbor View Hotel Owner, LLC &amp; another, SJC-13787</title>
+      <description>Oral argument in Lynn Allegaert, Trustee v. Harbor View Hotel Owner, LLC &amp; another, SJC-13787</description>
       <guid isPermaLink="false">d5WtvX-tXNY</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13787.mp3" length="33881563" type="audio/mpeg"/>
       <pubDate>Mon, 08 Dec 2025 15:44:39 +0000</pubDate>
@@ -198,6 +224,7 @@
     </item>
     <item>
       <title>Commonwealth v. Raymond J. White, SJC-13770</title>
+      <description>Oral argument in Commonwealth v. Raymond J. White, SJC-13770</description>
       <guid isPermaLink="false">C_ealg_EHoo</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13770.mp3" length="34272294" type="audio/mpeg"/>
       <pubDate>Thu, 11 Dec 2025 15:09:00 +0000</pubDate>
@@ -205,6 +232,7 @@
     </item>
     <item>
       <title>Commonwealth v. Keith Williams, SJC-12702</title>
+      <description>Oral argument in Commonwealth v. Keith Williams, SJC-12702</description>
       <guid isPermaLink="false">Fzzz4sAJKb4</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-12702.mp3" length="44419612" type="audio/mpeg"/>
       <pubDate>Thu, 11 Dec 2025 15:12:20 +0000</pubDate>
@@ -212,12 +240,14 @@
     </item>
     <item>
       <title>Mass Bar Association Presents  Annual State of the Judiciary Address</title>
+      <description>Mass Bar Association Presents  Annual State of the Judiciary Address</description>
       <guid isPermaLink="false">ibq9z44-mYA</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/ibq9z44-mYA.mp3" length="46427818" type="audio/mpeg"/>
       <pubDate>Thu, 11 Dec 2025 15:56:11 +0000</pubDate>
     </item>
     <item>
       <title>In the Matter of an Impounded Case, SJC-13793</title>
+      <description>Oral argument in In the Matter of an Impounded Case, SJC-13793</description>
       <guid isPermaLink="false">IwsEpof1Cc8</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13793.mp3" length="29589820" type="audio/mpeg"/>
       <pubDate>Tue, 06 Jan 2026 14:30:53 +0000</pubDate>
@@ -225,6 +255,7 @@
     </item>
     <item>
       <title>Commonwealth v. Pierre Paul Cadet, SJC-13713</title>
+      <description>Oral argument in Commonwealth v. Pierre Paul Cadet, SJC-13713</description>
       <guid isPermaLink="false">9vYiOzoDqoY</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13713.mp3" length="29349670" type="audio/mpeg"/>
       <pubDate>Tue, 06 Jan 2026 14:35:29 +0000</pubDate>
@@ -232,6 +263,7 @@
     </item>
     <item>
       <title>Commonwealth v. Michael A. Diaz, Jr., SJC-13835</title>
+      <description>Oral argument in Commonwealth v. Michael A. Diaz, Jr., SJC-13835</description>
       <guid isPermaLink="false">xgPqGOW6yvE</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13835.mp3" length="31593848" type="audio/mpeg"/>
       <pubDate>Tue, 06 Jan 2026 14:37:37 +0000</pubDate>
@@ -239,6 +271,7 @@
     </item>
     <item>
       <title>Commonwealth v. Jose N. Solis, SJC-13823</title>
+      <description>Oral argument in Commonwealth v. Jose N. Solis, SJC-13823</description>
       <guid isPermaLink="false">EH56TdbmtnU</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13823.mp3" length="34371865" type="audio/mpeg"/>
       <pubDate>Tue, 06 Jan 2026 14:42:11 +0000</pubDate>
@@ -246,6 +279,7 @@
     </item>
     <item>
       <title>Kevin C. Robinson v. Town of Marshfield, SJC-13825</title>
+      <description>Oral argument in Kevin C. Robinson v. Town of Marshfield, SJC-13825</description>
       <guid isPermaLink="false">Ra8fFeNCn5s</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13825.mp3" length="34053490" type="audio/mpeg"/>
       <pubDate>Thu, 08 Jan 2026 16:43:49 +0000</pubDate>
@@ -253,6 +287,7 @@
     </item>
     <item>
       <title>Commonwealth v. Brian Donovan, SJC-13799</title>
+      <description>Oral argument in Commonwealth v. Brian Donovan, SJC-13799</description>
       <guid isPermaLink="false">8aQ3PinVHmI</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13799.mp3" length="35283509" type="audio/mpeg"/>
       <pubDate>Thu, 08 Jan 2026 16:45:07 +0000</pubDate>
@@ -260,6 +295,7 @@
     </item>
     <item>
       <title>Commonwealth v. Sambath Chhieng, SJC-13817</title>
+      <description>Oral argument in Commonwealth v. Sambath Chhieng, SJC-13817</description>
       <guid isPermaLink="false">Nt7vitHN2F4</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13817.mp3" length="22007986" type="audio/mpeg"/>
       <pubDate>Thu, 08 Jan 2026 16:48:46 +0000</pubDate>
@@ -267,6 +303,7 @@
     </item>
     <item>
       <title>Commonwealth v S.W., SJC-13785</title>
+      <description>Oral argument in Commonwealth v S.W., SJC-13785</description>
       <guid isPermaLink="false">uBnUqERBdNU</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13785.mp3" length="28630466" type="audio/mpeg"/>
       <pubDate>Thu, 08 Jan 2026 16:54:39 +0000</pubDate>
@@ -274,6 +311,7 @@
     </item>
     <item>
       <title>Commonwealth v R.D.,  SJC-13774</title>
+      <description>Oral argument in Commonwealth v R.D., SJC-13774</description>
       <guid isPermaLink="false">iIk--nRXVJw</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13774.mp3" length="20897602" type="audio/mpeg"/>
       <pubDate>Thu, 08 Jan 2026 16:59:26 +0000</pubDate>
@@ -281,6 +319,7 @@
     </item>
     <item>
       <title>Commonwealth v. Jill E. McGrath, SJC-13813</title>
+      <description>Oral argument in Commonwealth v. Jill E. McGrath, SJC-13813</description>
       <guid isPermaLink="false">lgXfcdmkQDI</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13813.mp3" length="33491183" type="audio/mpeg"/>
       <pubDate>Fri, 09 Jan 2026 18:06:59 +0000</pubDate>
@@ -288,6 +327,7 @@
     </item>
     <item>
       <title>Commonwealth v. Van Dorsey Jr., SJC-13232</title>
+      <description>Oral argument in Commonwealth v. Van Dorsey Jr., SJC-13232</description>
       <guid isPermaLink="false">sGof7nsXE0E</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13232.mp3" length="40096102" type="audio/mpeg"/>
       <pubDate>Mon, 12 Jan 2026 14:05:42 +0000</pubDate>
@@ -295,6 +335,7 @@
     </item>
     <item>
       <title>Commonwealth v. Emilio Delarosa, SJC-13444</title>
+      <description>Oral argument in Commonwealth v. Emilio Delarosa, SJC-13444</description>
       <guid isPermaLink="false">Wuz4SNPjsBk</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13444.mp3" length="31561628" type="audio/mpeg"/>
       <pubDate>Mon, 12 Jan 2026 14:06:01 +0000</pubDate>
@@ -302,6 +343,7 @@
     </item>
     <item>
       <title>David M. Sabatini v. Kristin A. Knouse &amp; others, SJC-13781</title>
+      <description>Oral argument in David M. Sabatini v. Kristin A. Knouse &amp; others, SJC-13781</description>
       <guid isPermaLink="false">MwytnknZEJE</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13781.mp3" length="32635200" type="audio/mpeg"/>
       <pubDate>Tue, 03 Feb 2026 17:03:03 +0000</pubDate>
@@ -309,6 +351,7 @@
     </item>
     <item>
       <title>Town of Nahant v. Northeastern University, SJC-13844</title>
+      <description>Oral argument in Town of Nahant v. Northeastern University, SJC-13844</description>
       <guid isPermaLink="false">Aah__VaTRAc</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/Aah__VaTRAc.mp3" length="34320835" type="audio/mpeg"/>
       <pubDate>Tue, 03 Feb 2026 17:09:22 +0000</pubDate>
@@ -316,6 +359,7 @@
     </item>
     <item>
       <title>J.C. Cannistraro, LLC v. Columbia Construction Co., SJC-13819</title>
+      <description>Oral argument in J.C. Cannistraro, LLC v. Columbia Construction Co., SJC-13819</description>
       <guid isPermaLink="false">2JNGZRh_AGY</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13819.mp3" length="33043957" type="audio/mpeg"/>
       <pubDate>Tue, 03 Feb 2026 17:12:42 +0000</pubDate>
@@ -323,6 +367,7 @@
     </item>
     <item>
       <title>Mahabub Khoda v. Bangladesh Association of New England, Inc. et al, SJC-13857</title>
+      <description>Oral argument in Mahabub Khoda v. Bangladesh Association of New England, Inc. et al, SJC-13857</description>
       <guid isPermaLink="false">o79b5l3t1C4</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13857.mp3" length="30617804" type="audio/mpeg"/>
       <pubDate>Tue, 03 Feb 2026 17:23:31 +0000</pubDate>
@@ -330,6 +375,7 @@
     </item>
     <item>
       <title>In the Matter of an Impounded Case, SJC-13846</title>
+      <description>Oral argument in In the Matter of an Impounded Case, SJC-13846</description>
       <guid isPermaLink="false">8Ex_YO4KYWs</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/8Ex_YO4KYWs.mp3" length="43581188" type="audio/mpeg"/>
       <pubDate>Tue, 03 Feb 2026 20:27:28 +0000</pubDate>
@@ -337,6 +383,7 @@
     </item>
     <item>
       <title>Commonwealth v. Scott M. Grimaldi, SJC-13842</title>
+      <description>Oral argument in Commonwealth v. Scott M. Grimaldi, SJC-13842</description>
       <guid isPermaLink="false">54RTmvDp6ek</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/54RTmvDp6ek.mp3" length="30985525" type="audio/mpeg"/>
       <pubDate>Thu, 05 Feb 2026 15:09:16 +0000</pubDate>
@@ -344,6 +391,7 @@
     </item>
     <item>
       <title>Commonwealth v. Jose M. Shaw, SJC-13852</title>
+      <description>Oral argument in Commonwealth v. Jose M. Shaw, SJC-13852</description>
       <guid isPermaLink="false">W58IZw3ZjAc</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/W58IZw3ZjAc.mp3" length="23340933" type="audio/mpeg"/>
       <pubDate>Thu, 05 Feb 2026 15:11:58 +0000</pubDate>
@@ -351,6 +399,7 @@
     </item>
     <item>
       <title>Watermark LLC. v. RH Benea Cranberry Co. Inc. et al, SJC-13843</title>
+      <description>Oral argument in Watermark LLC. v. RH Benea Cranberry Co. Inc. et al, SJC-13843</description>
       <guid isPermaLink="false">TcjA4lSrn28</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/TcjA4lSrn28.mp3" length="33950999" type="audio/mpeg"/>
       <pubDate>Thu, 05 Feb 2026 15:16:07 +0000</pubDate>
@@ -358,6 +407,7 @@
     </item>
     <item>
       <title>Helen Banevicius et al v. Town of Barnstable et al, SJC-13845</title>
+      <description>Oral argument in Helen Banevicius et al v. Town of Barnstable et al, SJC-13845</description>
       <guid isPermaLink="false">IXgfh0Q-3Ak</guid>
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/IXgfh0Q-3Ak.mp3" length="30395630" type="audio/mpeg"/>
       <pubDate>Thu, 05 Feb 2026 15:26:23 +0000</pubDate>
