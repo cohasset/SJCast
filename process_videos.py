@@ -229,13 +229,20 @@ def generate_feed(episodes):
 
     fg.title(PODCAST_TITLE)
     fg.description(PODCAST_DESCRIPTION)
-    fg.link(href=PODCAST_WEBSITE)
     fg.link(href=PODCAST_FEED_URL, rel="self", type="application/rss+xml")
+    fg.link(href=PODCAST_WEBSITE)
     fg.language("en")
+
+    # Standard RSS image element (fallback for non-iTunes readers)
+    if PODCAST_IMAGE:
+        fg.image(url=PODCAST_IMAGE, title=PODCAST_TITLE, link=PODCAST_WEBSITE)
+
     fg.podcast.itunes_author(PODCAST_AUTHOR)
     fg.podcast.itunes_category("Government")
     fg.podcast.itunes_explicit("no")
     fg.podcast.itunes_owner(name=PODCAST_AUTHOR, email=PODCAST_EMAIL)
+    fg.podcast.itunes_summary(PODCAST_DESCRIPTION)
+    fg.podcast.itunes_type("episodic")
 
     if PODCAST_IMAGE:
         fg.podcast.itunes_image(PODCAST_IMAGE)
@@ -269,6 +276,15 @@ def generate_feed(episodes):
         if case_info["docket"]:
             fe.podcast.itunes_subtitle(f"Docket: {case_info['docket']}")
 
+        fe.podcast.itunes_episode_type("full")
+
+        # Duration: use stored value, or estimate from file size (128kbps)
+        duration = ep.get("duration")
+        if not duration and ep.get("file_size"):
+            duration = int(ep["file_size"] / 16000)
+        if duration:
+            fe.podcast.itunes_duration(duration)
+
     fg.rss_file(str(FEED_FILE), pretty=True)
     print(f"Generated feed: {FEED_FILE}")
 
@@ -292,8 +308,15 @@ def process_video(video_info):
     # Tag audio file
     tag_audio(audio_path, video_info)
 
-    # Get file size
+    # Get file size and duration
     file_size = audio_path.stat().st_size
+    duration = None
+    if HAS_MUTAGEN:
+        try:
+            audio_info = MP3(audio_path)
+            duration = int(audio_info.info.length)
+        except Exception:
+            pass
 
     # Upload to B2
     audio_url = upload_to_b2(audio_path, video_id, title)
@@ -307,6 +330,7 @@ def process_video(video_info):
         "published_at": video_info.get("published_at"),
         "audio_url": audio_url,
         "file_size": file_size,
+        "duration": duration,
         "processed_at": datetime.utcnow().isoformat()
     }
 
@@ -363,4 +387,8 @@ def main():
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "--regenerate-feed":
+        episodes = load_episodes()
+        generate_feed(episodes)
+        sys.exit(0)
     main()
