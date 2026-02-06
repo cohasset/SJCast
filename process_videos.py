@@ -43,12 +43,39 @@ FEED_FILE = Path("feed.xml")
 AUDIO_DIR = Path("audio")
 
 # Podcast metadata
+STATE_FILE = Path("state.json")
+
 PODCAST_TITLE = "SJC Oral Arguments"
 PODCAST_DESCRIPTION = "Oral argument recordings from the Massachusetts Supreme Judicial Court"
 PODCAST_AUTHOR = "Massachusetts Supreme Judicial Court"
 PODCAST_EMAIL = "sjc@example.com"  # Update with real contact
 PODCAST_WEBSITE = "https://www.mass.gov/orgs/supreme-judicial-court"
 PODCAST_IMAGE = ""  # Add URL to podcast artwork
+PODCAST_FEED_URL = os.environ.get("PODCAST_FEED_URL",
+                                   "https://cohasset.github.io/SJCast/feed.xml")
+
+
+def load_state():
+    """Load seen video IDs from state file."""
+    if STATE_FILE.exists():
+        with open(STATE_FILE) as f:
+            return json.load(f)
+    return {"seen_ids": [], "last_check": None}
+
+
+def save_state(state):
+    """Save state to file."""
+    with open(STATE_FILE, "w") as f:
+        json.dump(state, f, indent=2)
+
+
+def mark_seen(video_id):
+    """Mark a single video as seen in state.json (called after successful processing)."""
+    state = load_state()
+    if video_id not in state["seen_ids"]:
+        state["seen_ids"].append(video_id)
+        state["last_check"] = datetime.utcnow().isoformat()
+        save_state(state)
 
 
 def parse_case_info(title):
@@ -57,6 +84,15 @@ def parse_case_info(title):
     if match:
         return {"case_name": match.group(1).strip(), "docket": match.group(2)}
     return {"case_name": title, "docket": None}
+
+
+def make_b2_filename(video_id, title):
+    """Build B2 filename from docket number, falling back to video ID."""
+    case_info = parse_case_info(title)
+    if case_info["docket"]:
+        return f"{case_info['docket']}.mp3"
+    # Fallback for non-case videos (e.g. ceremonies, events)
+    return f"{video_id}.mp3"
 
 
 def download_audio(video_id, title):
@@ -132,8 +168,8 @@ def tag_audio(audio_path, video_info):
     print(f"  Tagged: {audio_path}")
 
 
-def upload_to_b2(audio_path, video_id):
-    """Upload audio file to Backblaze B2."""
+def upload_to_b2(audio_path, video_id, title):
+    """Upload audio file to Backblaze B2 using docket-based naming."""
     if not HAS_B2:
         return None
 
@@ -151,10 +187,11 @@ def upload_to_b2(audio_path, video_id):
 
     bucket = b2_api.get_bucket_by_name(bucket_name)
 
-    remote_name = f"episodes/{video_id}.mp3"
+    filename = make_b2_filename(video_id, title)
+    remote_name = f"episodes/{filename}"
 
     print(f"  Uploading to B2: {remote_name}")
-    file_info = bucket.upload_local_file(
+    bucket.upload_local_file(
         local_file=str(audio_path),
         file_name=remote_name,
         content_type="audio/mpeg"
@@ -191,10 +228,12 @@ def generate_feed(episodes):
     fg.title(PODCAST_TITLE)
     fg.description(PODCAST_DESCRIPTION)
     fg.link(href=PODCAST_WEBSITE, rel="alternate")
+    fg.link(href=PODCAST_FEED_URL, rel="self")
     fg.language("en")
     fg.podcast.itunes_author(PODCAST_AUTHOR)
     fg.podcast.itunes_category("Government")
     fg.podcast.itunes_explicit("no")
+    fg.podcast.itunes_owner(name=PODCAST_AUTHOR, email=PODCAST_EMAIL)
 
     if PODCAST_IMAGE:
         fg.podcast.itunes_image(PODCAST_IMAGE)
@@ -213,7 +252,7 @@ def generate_feed(episodes):
 
         if ep.get("audio_url"):
             fe.enclosure(ep["audio_url"],
-                        ep.get("file_size", 0),
+                        str(ep.get("file_size", 0)),
                         "audio/mpeg")
 
         case_info = parse_case_info(ep["title"])
@@ -228,8 +267,11 @@ def process_video(video_info):
     """Process a single video: download, tag, upload, return episode data."""
     video_id = video_info["id"]
     title = video_info["title"]
+    case_info = parse_case_info(title)
 
     print(f"\nProcessing: {title}")
+    if case_info["docket"]:
+        print(f"  Docket: {case_info['docket']}")
 
     # Download audio
     audio_path = download_audio(video_id, title)
@@ -244,12 +286,13 @@ def process_video(video_info):
     file_size = audio_path.stat().st_size
 
     # Upload to B2
-    audio_url = upload_to_b2(audio_path, video_id)
+    audio_url = upload_to_b2(audio_path, video_id, title)
 
     # Build episode record
     episode = {
         "video_id": video_id,
         "title": title,
+        "docket": case_info["docket"],
         "description": video_info.get("description", ""),
         "published_at": video_info.get("published_at"),
         "audio_url": audio_url,
@@ -261,6 +304,9 @@ def process_video(video_info):
     if audio_url and audio_path.exists():
         audio_path.unlink()
         print(f"  Cleaned up local file")
+
+    # Mark as seen in state.json only after successful processing
+    mark_seen(video_id)
 
     return episode
 
@@ -286,6 +332,7 @@ def main():
     existing_ids = {ep["video_id"] for ep in episodes}
 
     # Process each new video
+    new_count = 0
     for video in new_videos:
         if video["id"] in existing_ids:
             print(f"Skipping already processed: {video['id']}")
@@ -294,14 +341,15 @@ def main():
         episode = process_video(video)
         if episode:
             episodes.append(episode)
+            new_count += 1
 
-    # Save updated episodes
-    save_episodes(episodes)
-
-    # Generate RSS feed
-    generate_feed(episodes)
-
-    print(f"\nDone! Processed {len(new_videos)} video(s)")
+    if new_count > 0:
+        # Save updated episodes and regenerate feed only if we actually added something
+        save_episodes(episodes)
+        generate_feed(episodes)
+        print(f"\nDone! Successfully processed {new_count} new episode(s)")
+    else:
+        print(f"\nNo episodes were successfully processed")
 
 
 if __name__ == "__main__":

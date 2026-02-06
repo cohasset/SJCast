@@ -146,6 +146,8 @@ def main():
                         help="List N most recent videos")
     parser.add_argument("--json", action="store_true",
                         help="Output as JSON (for piping to other scripts)")
+    parser.add_argument("--all", action="store_true",
+                        help="Output all recent videos (ignore seen state, for backfill)")
     args = parser.parse_args()
     
     api_key = get_api_key()
@@ -178,11 +180,20 @@ def main():
         return
     
     # Normal mode: check for new videos
-    new_videos = check_for_new_videos(youtube, state)
-    
+    if args.all:
+        # Backfill mode: return all recent videos regardless of seen state
+        new_videos = fetch_recent_uploads(youtube)
+    else:
+        new_videos = check_for_new_videos(youtube, state)
+
     if args.json:
+        # In --json mode, just output and exit. Do NOT update state here.
+        # State should only be updated after successful processing by
+        # process_videos.py, so failed downloads get retried next run.
         print(json.dumps(new_videos, indent=2))
-    elif new_videos:
+        sys.exit(0 if new_videos else 1)
+
+    if new_videos:
         print(f"Found {len(new_videos)} new video(s):\n")
         for v in new_videos:
             case_info = parse_case_info(v["title"])
@@ -193,13 +204,13 @@ def main():
             print()
     else:
         print("No new videos found")
-    
-    # Update state
+
+    # Update state only in interactive (non-json) mode
     if new_videos:
         state["seen_ids"].extend([v["id"] for v in new_videos])
     state["last_check"] = datetime.utcnow().isoformat()
     save_state(state)
-    
+
     # Exit with code indicating whether new videos were found
     # (useful for cron: only proceed to download step if exit code is 0)
     sys.exit(0 if new_videos else 1)

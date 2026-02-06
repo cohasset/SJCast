@@ -1,0 +1,8 @@
+# Temporary pipeline files
+audio/
+cookies.txt
+new_videos.json
+
+# Python
+__pycache__/
+*.pyc

@@ -4,11 +4,21 @@ on:
   schedule:
     # Run twice a week: Monday and Thursday at 8am UTC
     - cron: '0 8 * * 1,4'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: 'Re-process all videos (backfill missing episodes)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 env:
   B2_BUCKET: ${{ vars.B2_BUCKET }}
   PODCAST_BASE_URL: ${{ vars.PODCAST_BASE_URL }}
+  PODCAST_FEED_URL: ${{ vars.PODCAST_FEED_URL }}
 
 jobs:
   check-and-process:
@@ -45,10 +55,6 @@ jobs:
           echo "=== yt-dlp version ==="
           yt-dlp --version
 
-          echo "=== Testing yt-dlp format listing ==="
-          # Test with a known public video to verify n-challenge works
-          yt-dlp --verbose --js-runtimes node -F "https://www.youtube.com/watch?v=IXgfh0Q-3Ak" 2>&1 | head -100 || true
-
       - name: Install ffmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
@@ -65,8 +71,14 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
-          # Run monitor and capture output
-          python monitor.py --json > new_videos.json 2>&1 || true
+          MONITOR_ARGS="--json"
+          if [ "${{ inputs.backfill }}" = "true" ]; then
+            echo "Backfill mode: fetching all recent videos"
+            MONITOR_ARGS="--json --all"
+          fi
+
+          # Run monitor and capture JSON output (stderr goes to log, not the JSON file)
+          python monitor.py $MONITOR_ARGS > new_videos.json 2>/dev/null || true
 
           # Check if we have new videos (file exists and has content beyond empty array)
           if [ -s new_videos.json ] && [ "$(cat new_videos.json)" != "[]" ]; then
@@ -109,6 +121,13 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add feed.xml episodes.json || true
-          git diff --staged --quiet || git commit -m "Update podcast feed with new episodes"
-          git push
+          git add feed.xml episodes.json state.json || true
+
+          # Only commit if episodes.json actually changed (not just timestamp churn)
+          if git diff --staged --name-only | grep -q "episodes.json"; then
+            EPISODE_COUNT=$(python -c "import json; print(len(json.load(open('episodes.json'))))")
+            git commit -m "Update podcast feed ($EPISODE_COUNT episodes)"
+            git push
+          else
+            echo "No new episodes processed, skipping commit"
+          fi
