@@ -50,7 +50,7 @@ PODCAST_DESCRIPTION = "Oral argument recordings from the Massachusetts Supreme J
 PODCAST_AUTHOR = "Massachusetts Supreme Judicial Court"
 PODCAST_EMAIL = "sjc@example.com"  # Update with real contact
 PODCAST_WEBSITE = "https://www.mass.gov/orgs/supreme-judicial-court"
-PODCAST_IMAGE = ""  # Add URL to podcast artwork
+PODCAST_IMAGE = "https://cohasset.github.io/SJCast/sjcast.jpg"  # Add URL to podcast artwork
 PODCAST_FEED_URL = os.environ.get("PODCAST_FEED_URL",
                                    "https://cohasset.github.io/SJCast/feed.xml")
 
