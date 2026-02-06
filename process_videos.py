@@ -198,8 +198,10 @@ def upload_to_b2(audio_path, video_id, title):
     )
 
     # Construct public URL
-    base_url = os.environ.get("PODCAST_BASE_URL",
-                              "https://f000.backblazeb2.com/file/sjc-podcast")
+    base_url = os.environ.get("PODCAST_BASE_URL", "").rstrip("/")
+    if not base_url:
+        print("  Warning: PODCAST_BASE_URL not set, audio_url will be a relative path")
+        return f"/{remote_name}"
     return f"{base_url}/{remote_name}"
 
 
