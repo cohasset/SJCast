@@ -492,5 +492,27 @@
     "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13748.mp3",
     "file_size": 32856081,
     "processed_at": "2026-02-06T02:38:08.440618"
+  },
+  {
+    "video_id": "N-aqWyTL_O4",
+    "title": "Commonwealth v. Jerome Q. Meade, SJC-13674",
+    "docket": "SJC-13674",
+    "description": "",
+    "published_at": "2026-02-09T15:01:19Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13674.mp3",
+    "file_size": 39778137,
+    "duration": 2483,
+    "processed_at": "2026-02-12T10:31:19.022895"
+  },
+  {
+    "video_id": "QkWQc4YIbAw",
+    "title": "Commonwealth v. Franklin Conza, SJC-13369",
+    "docket": "SJC-13369",
+    "description": "",
+    "published_at": "2026-02-09T14:58:14Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13369.mp3",
+    "file_size": 35935342,
+    "duration": 2243,
+    "processed_at": "2026-02-12T10:32:01.264025"
   }
 ]
