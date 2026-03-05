@@ -514,5 +514,49 @@
     "file_size": 35935342,
     "duration": 2243,
     "processed_at": "2026-02-12T10:32:01.264025"
+  },
+  {
+    "video_id": "9yRDZ1oSX3M",
+    "title": "Commonwealth v. Wayne LeBlanc, SJC-13858",
+    "docket": "SJC-13858",
+    "description": "",
+    "published_at": "2026-03-03T21:29:30Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13858.mp3",
+    "file_size": 18218323,
+    "duration": 1137,
+    "processed_at": "2026-03-05T08:35:04.230735"
+  },
+  {
+    "video_id": "b8LbquEXezY",
+    "title": "MD Zafar v. Massachusetts State Lottery Commission, SJC-13864",
+    "docket": "SJC-13864",
+    "description": "",
+    "published_at": "2026-03-03T21:23:45Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13864.mp3",
+    "file_size": 25149599,
+    "duration": 1570,
+    "processed_at": "2026-03-05T08:35:36.975491"
+  },
+  {
+    "video_id": "blOEsqNAoMM",
+    "title": "Commonwealth v. Mikai P. Thomson, SJC-13856",
+    "docket": "SJC-13856",
+    "description": "",
+    "published_at": "2026-03-03T21:21:35Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13856.mp3",
+    "file_size": 32730994,
+    "duration": 2043,
+    "processed_at": "2026-03-05T08:36:14.805128"
+  },
+  {
+    "video_id": "UJns9hUqifs",
+    "title": "Crown Communities, LLC v. Pocasset Park Association, Inc. et al, SJC-13841",
+    "docket": "SJC-13841",
+    "description": "",
+    "published_at": "2026-03-03T21:18:04Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13841.mp3",
+    "file_size": 47406021,
+    "duration": 2959,
+    "processed_at": "2026-03-05T08:37:04.273428"
   }
 ]

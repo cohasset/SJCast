@@ -13,7 +13,7 @@
       <link>https://www.mass.gov/orgs/supreme-judicial-court</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Feb 2026 10:32:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 08:37:05 +0000</lastBuildDate>
     <itunes:author>Massachusetts Supreme Judicial Court</itunes:author>
     <itunes:category text="Government"/>
     <itunes:image href="https://cohasset.github.io/SJCast/sjcast.jpg"/>
@@ -539,6 +539,46 @@
       <pubDate>Mon, 09 Feb 2026 15:01:19 +0000</pubDate>
       <itunes:duration>2483</itunes:duration>
       <itunes:subtitle>Docket: SJC-13674</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Crown Communities, LLC v. Pocasset Park Association, Inc. et al, SJC-13841</title>
+      <description>Oral argument in Crown Communities, LLC v. Pocasset Park Association, Inc. et al, SJC-13841</description>
+      <guid isPermaLink="false">UJns9hUqifs</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13841.mp3" length="47406021" type="audio/mpeg"/>
+      <pubDate>Tue, 03 Mar 2026 21:18:04 +0000</pubDate>
+      <itunes:duration>2959</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13841</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth v. Mikai P. Thomson, SJC-13856</title>
+      <description>Oral argument in Commonwealth v. Mikai P. Thomson, SJC-13856</description>
+      <guid isPermaLink="false">blOEsqNAoMM</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13856.mp3" length="32730994" type="audio/mpeg"/>
+      <pubDate>Tue, 03 Mar 2026 21:21:35 +0000</pubDate>
+      <itunes:duration>2043</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13856</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>MD Zafar v. Massachusetts State Lottery Commission, SJC-13864</title>
+      <description>Oral argument in MD Zafar v. Massachusetts State Lottery Commission, SJC-13864</description>
+      <guid isPermaLink="false">b8LbquEXezY</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13864.mp3" length="25149599" type="audio/mpeg"/>
+      <pubDate>Tue, 03 Mar 2026 21:23:45 +0000</pubDate>
+      <itunes:duration>1570</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13864</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth v. Wayne LeBlanc, SJC-13858</title>
+      <description>Oral argument in Commonwealth v. Wayne LeBlanc, SJC-13858</description>
+      <guid isPermaLink="false">9yRDZ1oSX3M</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13858.mp3" length="18218323" type="audio/mpeg"/>
+      <pubDate>Tue, 03 Mar 2026 21:29:30 +0000</pubDate>
+      <itunes:duration>1137</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13858</itunes:subtitle>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
