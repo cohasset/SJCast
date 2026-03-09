@@ -13,7 +13,7 @@
       <link>https://www.mass.gov/orgs/supreme-judicial-court</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 08:37:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 08:41:32 +0000</lastBuildDate>
     <itunes:author>Massachusetts Supreme Judicial Court</itunes:author>
     <itunes:category text="Government"/>
     <itunes:image href="https://cohasset.github.io/SJCast/sjcast.jpg"/>
@@ -579,6 +579,46 @@
       <pubDate>Tue, 03 Mar 2026 21:29:30 +0000</pubDate>
       <itunes:duration>1137</itunes:duration>
       <itunes:subtitle>Docket: SJC-13858</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Town Of Marshfield v. Commonwealth Of Massachusetts et al, SJC-13840</title>
+      <description>Oral argument in Town Of Marshfield v. Commonwealth Of Massachusetts et al, SJC-13840</description>
+      <guid isPermaLink="false">2awDN2M2jXw</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13840.mp3" length="31490530" type="audio/mpeg"/>
+      <pubDate>Fri, 06 Mar 2026 13:21:35 +0000</pubDate>
+      <itunes:duration>1966</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13840</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>The Worker's Comp. Rating &amp; Inspection Bureau Of Mass. v. The Commissioner Of Insurance, SJC-13807</title>
+      <description>Oral argument in The Worker's Comp. Rating &amp; Inspection Bureau Of Mass. v. The Commissioner Of Insurance, SJC-13807</description>
+      <guid isPermaLink="false">e_4PukpbSNo</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13807.mp3" length="49390826" type="audio/mpeg"/>
+      <pubDate>Fri, 06 Mar 2026 13:41:29 +0000</pubDate>
+      <itunes:duration>3083</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13807</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth v. Stephen Pina, SJC-13783</title>
+      <description>Oral argument in Commonwealth v. Stephen Pina, SJC-13783</description>
+      <guid isPermaLink="false">noNLS08nHdk</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13783.mp3" length="38261098" type="audio/mpeg"/>
+      <pubDate>Fri, 06 Mar 2026 14:04:45 +0000</pubDate>
+      <itunes:duration>2388</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13783</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Jeremiah Nicholls et al v. Veolia Water Contract Operations USA, Inc., SJC-13804</title>
+      <description>Oral argument in Jeremiah Nicholls et al v. Veolia Water Contract Operations USA, Inc., SJC-13804</description>
+      <guid isPermaLink="false">ZJTBRYxwoKc</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13804.mp3" length="38648556" type="audio/mpeg"/>
+      <pubDate>Fri, 06 Mar 2026 14:12:57 +0000</pubDate>
+      <itunes:duration>2413</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13804</itunes:subtitle>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>

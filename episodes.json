@@ -558,5 +558,49 @@
     "file_size": 47406021,
     "duration": 2959,
     "processed_at": "2026-03-05T08:37:04.273428"
+  },
+  {
+    "video_id": "ZJTBRYxwoKc",
+    "title": "Jeremiah Nicholls et al v. Veolia Water Contract Operations USA, Inc., SJC-13804",
+    "docket": "SJC-13804",
+    "description": "",
+    "published_at": "2026-03-06T14:12:57Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13804.mp3",
+    "file_size": 38648556,
+    "duration": 2413,
+    "processed_at": "2026-03-09T08:39:08.557426"
+  },
+  {
+    "video_id": "noNLS08nHdk",
+    "title": "Commonwealth v. Stephen Pina, SJC-13783",
+    "docket": "SJC-13783",
+    "description": "",
+    "published_at": "2026-03-06T14:04:45Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13783.mp3",
+    "file_size": 38261098,
+    "duration": 2388,
+    "processed_at": "2026-03-09T08:39:54.524722"
+  },
+  {
+    "video_id": "e_4PukpbSNo",
+    "title": "The Worker's Comp. Rating & Inspection Bureau Of Mass. v. The Commissioner Of Insurance, SJC-13807",
+    "docket": "SJC-13807",
+    "description": "",
+    "published_at": "2026-03-06T13:41:29Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13807.mp3",
+    "file_size": 49390826,
+    "duration": 3083,
+    "processed_at": "2026-03-09T08:40:53.667711"
+  },
+  {
+    "video_id": "2awDN2M2jXw",
+    "title": "Town Of Marshfield v. Commonwealth Of Massachusetts et al, SJC-13840",
+    "docket": "SJC-13840",
+    "description": "",
+    "published_at": "2026-03-06T13:21:35Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13840.mp3",
+    "file_size": 31490530,
+    "duration": 1966,
+    "processed_at": "2026-03-09T08:41:32.020858"
   }
 ]
