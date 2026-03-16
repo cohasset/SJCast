@@ -13,7 +13,7 @@
       <link>https://www.mass.gov/orgs/supreme-judicial-court</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Mar 2026 08:41:32 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Mar 2026 08:52:34 +0000</lastBuildDate>
     <itunes:author>Massachusetts Supreme Judicial Court</itunes:author>
     <itunes:category text="Government"/>
     <itunes:image href="https://cohasset.github.io/SJCast/sjcast.jpg"/>
@@ -619,6 +619,26 @@
       <pubDate>Fri, 06 Mar 2026 14:12:57 +0000</pubDate>
       <itunes:duration>2413</itunes:duration>
       <itunes:subtitle>Docket: SJC-13804</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth v. Kaiden J. Henderson, SJC-13482</title>
+      <description>Oral argument in Commonwealth v. Kaiden J. Henderson, SJC-13482</description>
+      <guid isPermaLink="false">IK_jkPyZ8Wc</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13482.mp3" length="34163520" type="audio/mpeg"/>
+      <pubDate>Thu, 12 Mar 2026 14:35:36 +0000</pubDate>
+      <itunes:duration>2132</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13482</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth v. Latarsha L. Sanders, SJC-13552</title>
+      <description>Oral argument in Commonwealth v. Latarsha L. Sanders, SJC-13552</description>
+      <guid isPermaLink="false">5x7hoDpYGrM</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13552.mp3" length="54757298" type="audio/mpeg"/>
+      <pubDate>Thu, 12 Mar 2026 14:36:05 +0000</pubDate>
+      <itunes:duration>3418</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13552</itunes:subtitle>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
