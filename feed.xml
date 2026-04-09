@@ -13,7 +13,7 @@
       <link>https://www.mass.gov/orgs/supreme-judicial-court</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Mar 2026 08:52:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 09:06:09 +0000</lastBuildDate>
     <itunes:author>Massachusetts Supreme Judicial Court</itunes:author>
     <itunes:category text="Government"/>
     <itunes:image href="https://cohasset.github.io/SJCast/sjcast.jpg"/>
@@ -639,6 +639,66 @@
       <pubDate>Thu, 12 Mar 2026 14:36:05 +0000</pubDate>
       <itunes:duration>3418</itunes:duration>
       <itunes:subtitle>Docket: SJC-13552</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth v. Craig G. Hood, SJC-13818</title>
+      <description>Oral argument in Commonwealth v. Craig G. Hood, SJC-13818</description>
+      <guid isPermaLink="false">rkPdgVeI0iA</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13818.mp3" length="29770135" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Apr 2026 13:35:14 +0000</pubDate>
+      <itunes:duration>1858</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13818</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth v. Clerence Henrique Gonclaves, SJC-13880</title>
+      <description>Oral argument in Commonwealth v. Clerence Henrique Gonclaves, SJC-13880</description>
+      <guid isPermaLink="false">Qeom7aTvjIs</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13880.mp3" length="30951228" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Apr 2026 13:54:18 +0000</pubDate>
+      <itunes:duration>1932</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13880</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth v. Shu Feng Hsu, SJC-13855</title>
+      <description>Oral argument in Commonwealth v. Shu Feng Hsu, SJC-13855</description>
+      <guid isPermaLink="false">HAw39gBTkb0</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13855.mp3" length="44054367" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Apr 2026 13:57:31 +0000</pubDate>
+      <itunes:duration>2750</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13855</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Daikin Applied Americas Inc. v. Joseph Russo et al, SJC-13881</title>
+      <description>Oral argument in Daikin Applied Americas Inc. v. Joseph Russo et al, SJC-13881</description>
+      <guid isPermaLink="false">x8luKoFWUJE</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13881.mp3" length="24880582" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Apr 2026 14:00:23 +0000</pubDate>
+      <itunes:duration>1553</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13881</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth v. Byron Palmer, SJC-13873</title>
+      <description>Oral argument in Commonwealth v. Byron Palmer, SJC-13873</description>
+      <guid isPermaLink="false">-I-M43xKvvY</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13873.mp3" length="39744663" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Apr 2026 14:03:14 +0000</pubDate>
+      <itunes:duration>2481</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13873</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>William E. O'Connor v. MAG Mutual Insurance Company, SJC-13821</title>
+      <description>Oral argument in William E. O'Connor v. MAG Mutual Insurance Company, SJC-13821</description>
+      <guid isPermaLink="false">iLAqmEcmcPQ</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13821.mp3" length="32751095" type="audio/mpeg"/>
+      <pubDate>Wed, 08 Apr 2026 14:06:02 +0000</pubDate>
+      <itunes:duration>2044</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13821</itunes:subtitle>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>

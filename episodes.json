@@ -624,5 +624,71 @@
     "file_size": 34163520,
     "duration": 2132,
     "processed_at": "2026-03-16T08:52:34.983036"
+  },
+  {
+    "video_id": "iLAqmEcmcPQ",
+    "title": "William E. O'Connor v. MAG Mutual Insurance Company, SJC-13821",
+    "docket": "SJC-13821",
+    "description": "",
+    "published_at": "2026-04-08T14:06:02Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13821.mp3",
+    "file_size": 32751095,
+    "duration": 2044,
+    "processed_at": "2026-04-09T09:02:28.003547"
+  },
+  {
+    "video_id": "-I-M43xKvvY",
+    "title": "Commonwealth v. Byron Palmer, SJC-13873",
+    "docket": "SJC-13873",
+    "description": "",
+    "published_at": "2026-04-08T14:03:14Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13873.mp3",
+    "file_size": 39744663,
+    "duration": 2481,
+    "processed_at": "2026-04-09T09:03:19.757259"
+  },
+  {
+    "video_id": "x8luKoFWUJE",
+    "title": "Daikin Applied Americas Inc. v. Joseph Russo et al, SJC-13881",
+    "docket": "SJC-13881",
+    "description": "",
+    "published_at": "2026-04-08T14:00:23Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13881.mp3",
+    "file_size": 24880582,
+    "duration": 1553,
+    "processed_at": "2026-04-09T09:03:53.073877"
+  },
+  {
+    "video_id": "HAw39gBTkb0",
+    "title": "Commonwealth v. Shu Feng Hsu, SJC-13855",
+    "docket": "SJC-13855",
+    "description": "",
+    "published_at": "2026-04-08T13:57:31Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13855.mp3",
+    "file_size": 44054367,
+    "duration": 2750,
+    "processed_at": "2026-04-09T09:04:48.295952"
+  },
+  {
+    "video_id": "Qeom7aTvjIs",
+    "title": "Commonwealth v. Clerence Henrique Gonclaves, SJC-13880",
+    "docket": "SJC-13880",
+    "description": "",
+    "published_at": "2026-04-08T13:54:18Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13880.mp3",
+    "file_size": 30951228,
+    "duration": 1932,
+    "processed_at": "2026-04-09T09:05:27.063216"
+  },
+  {
+    "video_id": "rkPdgVeI0iA",
+    "title": "Commonwealth v. Craig G. Hood, SJC-13818",
+    "docket": "SJC-13818",
+    "description": "",
+    "published_at": "2026-04-08T13:35:14Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13818.mp3",
+    "file_size": 29770135,
+    "duration": 1858,
+    "processed_at": "2026-04-09T09:06:07.507890"
   }
 ]
