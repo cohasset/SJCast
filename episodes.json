@@ -690,5 +690,60 @@
     "file_size": 29770135,
     "duration": 1858,
     "processed_at": "2026-04-09T09:06:07.507890"
+  },
+  {
+    "video_id": "_WRLiIYx4TI",
+    "title": "Sunpin Energy Services, LLC, & another v. Zoning Board of Appeals of Petersham, SJC-13860",
+    "docket": "SJC-13860",
+    "description": "",
+    "published_at": "2026-04-10T14:03:18Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13860.mp3",
+    "file_size": 40688572,
+    "duration": 2540,
+    "processed_at": "2026-04-13T10:03:29.841386"
+  },
+  {
+    "video_id": "Tj6fsLk6Pq4",
+    "title": "In the Matter of an Impounded Case, SJC-13854",
+    "docket": "SJC-13854",
+    "description": "",
+    "published_at": "2026-04-10T14:02:14Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13854.mp3",
+    "file_size": 38227634,
+    "duration": 2386,
+    "processed_at": "2026-04-13T10:04:03.423329"
+  },
+  {
+    "video_id": "LFML4N50w1E",
+    "title": "Luis Contento Suquilanda v. Skyway Roofing Inc., SJC-13878",
+    "docket": "SJC-13878",
+    "description": "",
+    "published_at": "2026-04-10T13:50:28Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13878.mp3",
+    "file_size": 38227647,
+    "duration": 2386,
+    "processed_at": "2026-04-13T10:04:48.008162"
+  },
+  {
+    "video_id": "5Jlx-VPCCg8",
+    "title": "Commonwealth v. Javaine Watson, SJC-13850",
+    "docket": "SJC-13850",
+    "description": "",
+    "published_at": "2026-04-10T13:33:45Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13850.mp3",
+    "file_size": 44681516,
+    "duration": 2789,
+    "processed_at": "2026-04-13T10:05:37.902424"
+  },
+  {
+    "video_id": "jZChNvnZ13w",
+    "title": "Emerald Necklace Conservancy, Inc. et al v. City of Boston et al, SJC-13865",
+    "docket": "SJC-13865",
+    "description": "",
+    "published_at": "2026-04-10T13:23:06Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13865.mp3",
+    "file_size": 58739022,
+    "duration": 3667,
+    "processed_at": "2026-04-13T10:06:39.235396"
   }
 ]

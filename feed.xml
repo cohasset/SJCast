@@ -13,7 +13,7 @@
       <link>https://www.mass.gov/orgs/supreme-judicial-court</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Apr 2026 09:06:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 10:06:39 +0000</lastBuildDate>
     <itunes:author>Massachusetts Supreme Judicial Court</itunes:author>
     <itunes:category text="Government"/>
     <itunes:image href="https://cohasset.github.io/SJCast/sjcast.jpg"/>
@@ -699,6 +699,56 @@
       <pubDate>Wed, 08 Apr 2026 14:06:02 +0000</pubDate>
       <itunes:duration>2044</itunes:duration>
       <itunes:subtitle>Docket: SJC-13821</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Emerald Necklace Conservancy, Inc. et al v. City of Boston et al, SJC-13865</title>
+      <description>Oral argument in Emerald Necklace Conservancy, Inc. et al v. City of Boston et al, SJC-13865</description>
+      <guid isPermaLink="false">jZChNvnZ13w</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13865.mp3" length="58739022" type="audio/mpeg"/>
+      <pubDate>Fri, 10 Apr 2026 13:23:06 +0000</pubDate>
+      <itunes:duration>3667</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13865</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth v. Javaine Watson, SJC-13850</title>
+      <description>Oral argument in Commonwealth v. Javaine Watson, SJC-13850</description>
+      <guid isPermaLink="false">5Jlx-VPCCg8</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13850.mp3" length="44681516" type="audio/mpeg"/>
+      <pubDate>Fri, 10 Apr 2026 13:33:45 +0000</pubDate>
+      <itunes:duration>2789</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13850</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Luis Contento Suquilanda v. Skyway Roofing Inc., SJC-13878</title>
+      <description>Oral argument in Luis Contento Suquilanda v. Skyway Roofing Inc., SJC-13878</description>
+      <guid isPermaLink="false">LFML4N50w1E</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13878.mp3" length="38227647" type="audio/mpeg"/>
+      <pubDate>Fri, 10 Apr 2026 13:50:28 +0000</pubDate>
+      <itunes:duration>2386</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13878</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>In the Matter of an Impounded Case, SJC-13854</title>
+      <description>Oral argument in In the Matter of an Impounded Case, SJC-13854</description>
+      <guid isPermaLink="false">Tj6fsLk6Pq4</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13854.mp3" length="38227634" type="audio/mpeg"/>
+      <pubDate>Fri, 10 Apr 2026 14:02:14 +0000</pubDate>
+      <itunes:duration>2386</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13854</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Sunpin Energy Services, LLC, &amp; another v. Zoning Board of Appeals of Petersham, SJC-13860</title>
+      <description>Oral argument in Sunpin Energy Services, LLC, &amp; another v. Zoning Board of Appeals of Petersham, SJC-13860</description>
+      <guid isPermaLink="false">_WRLiIYx4TI</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13860.mp3" length="40688572" type="audio/mpeg"/>
+      <pubDate>Fri, 10 Apr 2026 14:03:18 +0000</pubDate>
+      <itunes:duration>2540</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13860</itunes:subtitle>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
