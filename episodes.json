@@ -745,5 +745,38 @@
     "file_size": 58739022,
     "duration": 3667,
     "processed_at": "2026-04-13T10:06:39.235396"
+  },
+  {
+    "video_id": "SGBBj6lI8Ls",
+    "title": "Commonwealth v. Luis K. Cotto, SJC-13583",
+    "docket": "SJC-13583",
+    "description": "",
+    "published_at": "2026-04-13T14:37:13Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13583.mp3",
+    "file_size": 82462645,
+    "duration": 5148,
+    "processed_at": "2026-04-16T09:15:30.435494"
+  },
+  {
+    "video_id": "IcXJKILsGf4",
+    "title": "Commonwealth v. Keith A. Cotto, SJC-13585",
+    "docket": "SJC-13585",
+    "description": "",
+    "published_at": "2026-04-13T14:35:30Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13585.mp3",
+    "file_size": 82462646,
+    "duration": 5148,
+    "processed_at": "2026-04-16T09:17:14.856450"
+  },
+  {
+    "video_id": "LZQNrltlWVU",
+    "title": "Commonwealth v. Isaiah Fraticelli, SJC-13584",
+    "docket": "SJC-13584",
+    "description": "",
+    "published_at": "2026-04-13T14:34:11Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13584.mp3",
+    "file_size": 82462649,
+    "duration": 5148,
+    "processed_at": "2026-04-16T09:18:51.033422"
   }
 ]
