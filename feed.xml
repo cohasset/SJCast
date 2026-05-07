@@ -13,7 +13,7 @@
       <link>https://www.mass.gov/orgs/supreme-judicial-court</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Apr 2026 09:18:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 10:23:48 +0000</lastBuildDate>
     <itunes:author>Massachusetts Supreme Judicial Court</itunes:author>
     <itunes:category text="Government"/>
     <itunes:image href="https://cohasset.github.io/SJCast/sjcast.jpg"/>
@@ -779,6 +779,55 @@
       <pubDate>Mon, 13 Apr 2026 14:37:13 +0000</pubDate>
       <itunes:duration>5148</itunes:duration>
       <itunes:subtitle>Docket: SJC-13583</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Commonwealth of Massachusetts v. KalshiEX LLC., SJC-13906</title>
+      <description>Oral argument in Commonwealth of Massachusetts v. KalshiEX LLC., SJC-13906</description>
+      <guid isPermaLink="false">XQTZlzksYVM</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13906.mp3" length="49674027" type="audio/mpeg"/>
+      <pubDate>Wed, 06 May 2026 14:02:28 +0000</pubDate>
+      <itunes:duration>3101</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13906</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Lewis Finfer et al v. Andrea Joy Campbell, Attorney General et al, SJC-13885</title>
+      <description>Oral argument in Lewis Finfer et al v. Andrea Joy Campbell, Attorney General et al, SJC-13885</description>
+      <guid isPermaLink="false">lbAnvghD1GA</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13885.mp3" length="42302240" type="audio/mpeg"/>
+      <pubDate>Wed, 06 May 2026 14:27:16 +0000</pubDate>
+      <itunes:duration>2641</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13885</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Martina Jackson et al v. Andrea J. Campbell, Attorney General et al, SJC-13904</title>
+      <description>Oral argument in Martina Jackson et al v. Andrea J. Campbell, Attorney General et al, SJC-13904</description>
+      <guid isPermaLink="false">p_m7uX85uIQ</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13904.mp3" length="34840068" type="audio/mpeg"/>
+      <pubDate>Wed, 06 May 2026 14:27:35 +0000</pubDate>
+      <itunes:duration>2175</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13904</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Caroline Pineau et al v. Andrea Joy Campbell, Attorney General et al, SJC-13927</title>
+      <description>Oral argument in Caroline Pineau et al v. Andrea Joy Campbell, Attorney General et al, SJC-13927</description>
+      <guid isPermaLink="false">umEn_LhsrsQ</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13927.mp3" length="28696200" type="audio/mpeg"/>
+      <pubDate>Wed, 06 May 2026 14:28:53 +0000</pubDate>
+      <itunes:duration>1791</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13927</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>In Re Shelley M. Joseph, OE-0157</title>
+      <description>In Re Shelley M. Joseph, OE-0157</description>
+      <guid isPermaLink="false">SR6sPKo_KpY</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SR6sPKo_KpY.mp3" length="44194903" type="audio/mpeg"/>
+      <pubDate>Wed, 06 May 2026 14:31:37 +0000</pubDate>
+      <itunes:duration>2759</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>

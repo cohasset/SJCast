@@ -778,5 +778,60 @@
     "file_size": 82462649,
     "duration": 5148,
     "processed_at": "2026-04-16T09:18:51.033422"
+  },
+  {
+    "video_id": "SR6sPKo_KpY",
+    "title": "In Re Shelley M. Joseph, OE-0157",
+    "docket": null,
+    "description": "",
+    "published_at": "2026-05-06T14:31:37Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SR6sPKo_KpY.mp3",
+    "file_size": 44194903,
+    "duration": 2759,
+    "processed_at": "2026-05-07T10:19:57.819728"
+  },
+  {
+    "video_id": "umEn_LhsrsQ",
+    "title": "Caroline Pineau et al v. Andrea Joy Campbell, Attorney General et al, SJC-13927",
+    "docket": "SJC-13927",
+    "description": "",
+    "published_at": "2026-05-06T14:28:53Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13927.mp3",
+    "file_size": 28696200,
+    "duration": 1791,
+    "processed_at": "2026-05-07T10:20:39.529806"
+  },
+  {
+    "video_id": "p_m7uX85uIQ",
+    "title": "Martina Jackson et al v. Andrea J. Campbell, Attorney General et al, SJC-13904",
+    "docket": "SJC-13904",
+    "description": "",
+    "published_at": "2026-05-06T14:27:35Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13904.mp3",
+    "file_size": 34840068,
+    "duration": 2175,
+    "processed_at": "2026-05-07T10:21:33.795232"
+  },
+  {
+    "video_id": "lbAnvghD1GA",
+    "title": "Lewis Finfer et al v. Andrea Joy Campbell, Attorney General et al, SJC-13885",
+    "docket": "SJC-13885",
+    "description": "",
+    "published_at": "2026-05-06T14:27:16Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13885.mp3",
+    "file_size": 42302240,
+    "duration": 2641,
+    "processed_at": "2026-05-07T10:22:35.114937"
+  },
+  {
+    "video_id": "XQTZlzksYVM",
+    "title": "Commonwealth of Massachusetts v. KalshiEX LLC., SJC-13906",
+    "docket": "SJC-13906",
+    "description": "",
+    "published_at": "2026-05-06T14:02:28Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13906.mp3",
+    "file_size": 49674027,
+    "duration": 3101,
+    "processed_at": "2026-05-07T10:23:46.929696"
   }
 ]
