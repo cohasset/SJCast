@@ -833,5 +833,49 @@
     "file_size": 49674027,
     "duration": 3101,
     "processed_at": "2026-05-07T10:23:46.929696"
+  },
+  {
+    "video_id": "qgQCi2Vzfr0",
+    "title": "In the Matter of an Impounded Case, SJC-13847",
+    "docket": "SJC-13847",
+    "description": "",
+    "published_at": "2026-05-07T19:09:27Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13847.mp3",
+    "file_size": 33295385,
+    "duration": 2078,
+    "processed_at": "2026-05-11T10:57:09.226688"
+  },
+  {
+    "video_id": "HukUahY7VeM",
+    "title": "Arcangelo Cella et al v. Andrea Joy Campbell, Attorney General et al, SJC-13893",
+    "docket": "SJC-13893",
+    "description": "",
+    "published_at": "2026-05-07T19:07:21Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13893.mp3",
+    "file_size": 45992748,
+    "duration": 2871,
+    "processed_at": "2026-05-11T10:57:56.887988"
+  },
+  {
+    "video_id": "qgjz7cpISUo",
+    "title": "Claire Fitzmaurice et al v. City of Quincy et al, SJC-13877",
+    "docket": "SJC-13877",
+    "description": "",
+    "published_at": "2026-05-07T19:02:34Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13877.mp3",
+    "file_size": 45992728,
+    "duration": 2871,
+    "processed_at": "2026-05-11T10:58:48.103053"
+  },
+  {
+    "video_id": "EvtF3hgWgOc",
+    "title": "Diana DiZoglio v. Ronald Mariano & others; Attorney General, Intervener, SJC-13921",
+    "docket": "SJC-13921",
+    "description": "",
+    "published_at": "2026-05-07T19:00:31Z",
+    "audio_url": "https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13921.mp3",
+    "file_size": 48852359,
+    "duration": 3050,
+    "processed_at": "2026-05-11T10:59:43.079149"
   }
 ]

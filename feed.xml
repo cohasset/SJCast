@@ -13,7 +13,7 @@
       <link>https://www.mass.gov/orgs/supreme-judicial-court</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 07 May 2026 10:23:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 10:59:43 +0000</lastBuildDate>
     <itunes:author>Massachusetts Supreme Judicial Court</itunes:author>
     <itunes:category text="Government"/>
     <itunes:image href="https://cohasset.github.io/SJCast/sjcast.jpg"/>
@@ -828,6 +828,46 @@
       <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SR6sPKo_KpY.mp3" length="44194903" type="audio/mpeg"/>
       <pubDate>Wed, 06 May 2026 14:31:37 +0000</pubDate>
       <itunes:duration>2759</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Diana DiZoglio v. Ronald Mariano &amp; others; Attorney General, Intervener, SJC-13921</title>
+      <description>Oral argument in Diana DiZoglio v. Ronald Mariano &amp; others; Attorney General, Intervener, SJC-13921</description>
+      <guid isPermaLink="false">EvtF3hgWgOc</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13921.mp3" length="48852359" type="audio/mpeg"/>
+      <pubDate>Thu, 07 May 2026 19:00:31 +0000</pubDate>
+      <itunes:duration>3050</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13921</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Claire Fitzmaurice et al v. City of Quincy et al, SJC-13877</title>
+      <description>Oral argument in Claire Fitzmaurice et al v. City of Quincy et al, SJC-13877</description>
+      <guid isPermaLink="false">qgjz7cpISUo</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13877.mp3" length="45992728" type="audio/mpeg"/>
+      <pubDate>Thu, 07 May 2026 19:02:34 +0000</pubDate>
+      <itunes:duration>2871</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13877</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Arcangelo Cella et al v. Andrea Joy Campbell, Attorney General et al, SJC-13893</title>
+      <description>Oral argument in Arcangelo Cella et al v. Andrea Joy Campbell, Attorney General et al, SJC-13893</description>
+      <guid isPermaLink="false">HukUahY7VeM</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13893.mp3" length="45992748" type="audio/mpeg"/>
+      <pubDate>Thu, 07 May 2026 19:07:21 +0000</pubDate>
+      <itunes:duration>2871</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13893</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>In the Matter of an Impounded Case, SJC-13847</title>
+      <description>Oral argument in In the Matter of an Impounded Case, SJC-13847</description>
+      <guid isPermaLink="false">qgQCi2Vzfr0</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/SJC-13847.mp3" length="33295385" type="audio/mpeg"/>
+      <pubDate>Thu, 07 May 2026 19:09:27 +0000</pubDate>
+      <itunes:duration>2078</itunes:duration>
+      <itunes:subtitle>Docket: SJC-13847</itunes:subtitle>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
