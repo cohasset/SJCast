@@ -13,7 +13,7 @@
       <link>https://www.mass.gov/orgs/supreme-judicial-court</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 10:12:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 11:41:16 +0000</lastBuildDate>
     <itunes:author>Massachusetts Supreme Judicial Court</itunes:author>
     <itunes:category text="Government"/>
     <itunes:image href="https://cohasset.github.io/SJCast/sjcast.jpg"/>
@@ -888,6 +888,15 @@
       <pubDate>Mon, 11 May 2026 13:58:44 +0000</pubDate>
       <itunes:duration>1666</itunes:duration>
       <itunes:subtitle>Docket: SJC-12678</itunes:subtitle>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+    <item>
+      <title>Memorial Sitting for The Honorable Herbert P. Wilkins</title>
+      <description>Memorial Sitting for The Honorable Herbert P. Wilkins</description>
+      <guid isPermaLink="false">GkOixMw1SP4</guid>
+      <enclosure url="https://sjc-podcast.s3.us-east-005.backblazeb2.com/episodes/GkOixMw1SP4.mp3" length="37930145" type="audio/mpeg"/>
+      <pubDate>Thu, 14 May 2026 17:03:50 +0000</pubDate>
+      <itunes:duration>2368</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
   </channel>
